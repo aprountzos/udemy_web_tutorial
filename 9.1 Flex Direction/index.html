@@ -13,8 +13,11 @@
     .container {
       color: white;
       border: 5px solid gold;
+      display: flex;
       display: inline-flex;
       flex-direction: column;
+      /* flex-wrap: wrap; */
+
     }
 
     /*
@@ -23,6 +26,8 @@ children of the .container class.
     */
     .container>* {
       flex-basis: 100px;
+      /* width: 150px; */
+      ;
     }
 
     .red {
