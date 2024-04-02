@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aprountzos/blog-express-ejs.git"
+
   },
   "keywords": [
     "blog",
