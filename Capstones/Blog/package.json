@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "A Blog web application using Node.js, Express.js, and EJS. The application will allow users to create and view blog posts. Posts will not persist between sessions as no database will be used in this version of the application.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-
   },
   "keywords": [
     "blog",
@@ -20,8 +18,8 @@
   ],
   "author": "aprountzos",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aprountzos/blog-express-ejs/issues"
-  },
-  "homepage": "https://github.com/aprountzos/blog-express-ejs#readme"
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2"
+  }
 }

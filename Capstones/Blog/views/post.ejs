@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %>
+
+    <main>
+        <div class="post-title">
+            <h1>
+                <%= post["name"] %>
+            </h1>
+            <a class="btn" href="/edit-post/<%= id%>">Edit Post</a>
+        </div>
+
+        <p>
+            <%= post["details"] %>
+        </p>
+    </main>
+    <%- include("partials/footer.ejs") %>

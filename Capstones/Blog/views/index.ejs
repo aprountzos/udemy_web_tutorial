@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+
+    <main>
+        <div class="posts">
+            <ul>
+                <% for( let index=0; index < locals.posts.length; index++ ) { %>
+                    <li><a href="/post/<%= index %>">
+                            <%= locals.posts[index]["name"] %>
+                        </a></li>
+                    <% } %>
+
+
+            </ul>
+        </div>
+    </main>
+    <%- include("partials/footer.ejs") %>

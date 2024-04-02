@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") %>
+
+    <main>
+        <div class="create-post">
+            <div class="form-container">
+                <h2 class="post-title">Create A Post</h2>
+                <form action="/edit-post/<%= id %>" method="Post">
+                    <input type="text" name="post-name" value="<%= name %>">
+                    <textarea name="post-details" id="post-details" cols="50" rows="10"
+                        placeholder="Write your post here"><%= details %></textarea>
+                    <div class="btnpos">
+                        <input class="btn" type="submit" value="Submit Post">
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <%- include("partials/footer.ejs") %>
